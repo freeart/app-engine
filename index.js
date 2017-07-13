@@ -72,8 +72,8 @@ class Loader extends EventEmitter {
         });
         d.run(() => {
             async.eachOf(requires, (moduleClass, moduleName, cb) => {
-                this.emit('loading', moduleClass.name);
                 this.modules[moduleName] = new moduleClass(this, cb);
+                this.emit('loading', moduleClass.name);
             }, () => {
                 this.emit('loaded');
             })
