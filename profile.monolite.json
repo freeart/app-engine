@@ -1,0 +1,9 @@
+{
+	"module1": "./module1",
+	"module2": "./module2",
+	"apiTenant1": "./apiTenant1",
+	"storage": "./helpers/storage",
+	"configuration": "./helpers/config",
+	"logger": "./helpers/logger",
+	"queue": "./helpers/queue"
+}

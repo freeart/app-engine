@@ -1,0 +1,5 @@
+{
+	"apiTenant1": "./apiTenant1",
+	"storage": "./helpers/storage",
+	"configuration": "./helpers/config"
+}

@@ -1,0 +1,7 @@
+{
+	"module1": "./module1",
+	"storage": "./helpers/storage",
+	"configuration": "./helpers/config",
+	"logger": "./helpers/logger",
+	"queue": "./helpers/queue"
+}
